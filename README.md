@@ -1,6 +1,6 @@
 # PocketPolice
 
-<h3> 1. git clone git clone https://github.com/bebusl/PocketPolice.git</h3>
+<h3> 1. git clone https://github.com/bebusl/PocketPolice.git</h3>
 <h3> 2. 클론한 폴더 안드로이드 스튜디오로 오픈</h3>
 <h3> 3. 페이지 수정<br></h3>
 <img src="https://user-images.githubusercontent.com/49019236/80574272-80b15e80-8a3c-11ea-9f22-9d1c48f19328.png"> </img>
