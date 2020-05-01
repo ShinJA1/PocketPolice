@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 
-public class Arriving_4 extends AppCompatActivity {
+public class Arriving2_4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,4 +15,5 @@ public class Arriving_4 extends AppCompatActivity {
         ab.setDisplayUseLogoEnabled(true) ;
         ab.setDisplayShowHomeEnabled(true) ;
     }
+
 }

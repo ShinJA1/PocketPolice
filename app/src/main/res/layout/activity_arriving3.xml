@@ -10,12 +10,14 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="231dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="146dp"
-        android:layout_marginBottom="13dp"
-        android:src="@drawable/pocketpolice_arriving_check"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:layout_width="317dp"
+        android:layout_height="384dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:src="@drawable/pocketpolice_arriving3_confirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,19 +25,18 @@
     <Button
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="295dp"
-        android:layout_height="59dp"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
         android:layout_marginStart="67dp"
         android:layout_marginLeft="67dp"
         android:layout_marginEnd="67dp"
         android:layout_marginRight="67dp"
-        android:layout_marginBottom="167dp"
-        android:background="@drawable/pocketpolice_arriving_chkposition"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/pocketpolice_arriving3_chkposition"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
