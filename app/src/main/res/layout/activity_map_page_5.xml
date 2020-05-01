@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MapPage_5">
 
-
-
     <WebView
         android:id="@+id/webView"
         android:layout_width="0dp"
@@ -19,8 +17,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
-
     </WebView>
+
 
 
 </android.support.constraint.ConstraintLayout>
