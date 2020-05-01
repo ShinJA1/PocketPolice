@@ -15,7 +15,7 @@
         app:showAsAction="never"
         tools:ignore="MissingConstraints" />
     <Button
-        android:fontFamily="@font/fontsetting"
+        android:fontFamily="@font/font_family"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="도착"
@@ -25,7 +25,7 @@
         android:layout_marginTop="10dp"
         tools:ignore="MissingConstraints"></Button>
 <Button
-    android:fontFamily="@font/fontsetting"
+    android:fontFamily="@font/font_family"
     android:layout_width="300dp"
     android:layout_height="100dp"
     android:text="설정한 목적지와 멀어졌습니다"
@@ -35,7 +35,7 @@
 
 
     <Button
-        android:fontFamily="@font/fontsetting"
+        android:fontFamily="@font/font_family"
         android:layout_width="@android:dimen/notification_large_icon_height"
         android:layout_height="@android:dimen/notification_large_icon_width"
         android:layout_centerHorizontal="true"

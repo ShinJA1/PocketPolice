@@ -15,7 +15,7 @@
         app:showAsAction="never"
         tools:ignore="MissingConstraints" />
     <Button
-        android:fontFamily="@font/fontsetting"
+        android:fontFamily="@font/font_family"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="도착"
@@ -25,7 +25,7 @@
         android:layout_marginTop="10dp"
         tools:ignore="MissingConstraints"></Button>
 <Button
-    android:fontFamily="@font/fontsetting"
+    android:fontFamily="@font/font_family"
     android:layout_width="300dp"
     android:layout_height="100dp"
     android:text="평소보다 소요시간이 깁니다"
@@ -37,7 +37,7 @@
 
 
     <Button
-        android:fontFamily="@font/fontsetting"
+        android:fontFamily="@font/font_family"
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"

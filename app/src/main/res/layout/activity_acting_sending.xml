@@ -19,7 +19,7 @@
 
 
     <Button
-        android:fontFamily="@font/fontsetting"
+        android:fontFamily="@font/font_family"
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"

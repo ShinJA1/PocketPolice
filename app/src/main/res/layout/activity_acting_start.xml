@@ -16,7 +16,7 @@
         tools:ignore="MissingConstraints" />
 
 <Button
-    android:fontFamily="@font/fontsetting"
+    android:fontFamily="@font/font_family"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="도착"
