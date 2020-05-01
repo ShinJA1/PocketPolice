@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">PocketPolice</string>
     <string name="pocket_police">Pocket Police</string>
+    <string name="todo">TODO</string>
     <string name="user">User님</string>
     <string name="destination_set">목적지 설정</string>
     <string name="phonenum_set">사전 연락처 지정</string>
@@ -22,5 +23,5 @@
     <string name="hint_name">이름</string>
     <string name="btn_login">로그인</string>
     <string name="btn_register">회원가입</string>
-    <string name="todo">TODO</string>
+    <string name="button">Button</string>
 </resources>

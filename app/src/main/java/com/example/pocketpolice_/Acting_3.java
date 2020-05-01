@@ -8,6 +8,6 @@ public class Acting_3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_acting);
+        setContentView(R.layout.activity_acting_notice);
     }
 }
