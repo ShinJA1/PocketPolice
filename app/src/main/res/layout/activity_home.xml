@@ -12,14 +12,14 @@
         android:id="@+id/imageView"
         android:layout_width="136dp"
         android:layout_height="130dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.116"
-        app:srcCompat="@drawable/home_user"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/home_user" />
 
     <View
         android:id="@+id/view"
@@ -72,7 +72,6 @@
         android:id="@+id/button1"
         android:layout_width="240dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="0dp"
         android:background="@drawable/blue_button"
         android:stateListAnimator="@null"
         android:text="@string/destination_set"
@@ -81,13 +80,13 @@
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" tools:targetApi="lollipop"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:targetApi="lollipop" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="240dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="0dp"
         android:background="@drawable/blue_button"
         android:stateListAnimator="@null"
         android:text="@string/phonenum_set"
@@ -96,7 +95,8 @@
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1" tools:targetApi="lollipop"/>
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        tools:targetApi="lollipop" />
 
     <Button
         android:id="@+id/button3"
@@ -111,7 +111,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" tools:targetApi="lollipop"/>
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:targetApi="lollipop" />
 
 
 </android.support.constraint.ConstraintLayout>
