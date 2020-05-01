@@ -23,4 +23,5 @@ Activity_arriving.xml: 도착<br>
 진희<br>
 Activity_map_page.xml:지도<br>
 <br>
-수정하면됨</p>
+수정하면됨</p> 
+<h3> 4. 수정 완료시 git pull => git add . => git commit -m "수정한 내용 적기" => git push 해주면 깃에 올라온 소스랑 내가 수정한 소스랑 합쳐짐</h3>
